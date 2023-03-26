@@ -1,0 +1,16 @@
+{
+  "name": "canvas-gl-root",
+  "private": true,
+  "description": "Root project for CanvasGL",
+  "author": "adamwph",
+  "license": "MIT",
+  "workspaces": [
+    "canvas-gl",
+    "test-project"
+  ],
+  "scripts": {
+    "dev": "npm run dev -w test-project",
+    "build": "npm run build -w canvas-gl",
+    "publish": "npm publish -w canvas-gl"
+  }
+}
